@@ -1,0 +1,15 @@
+{
+  "name": "leetcode-golang",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.7",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.3",
+    "typescript": "3.9.7"
+  }
+}
