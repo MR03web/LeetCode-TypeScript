@@ -19,9 +19,9 @@ function addTwoNumbers(
   let cur = dummyHead;
   let carry = 0; // 存储进位
 
-  while (cur1 !== null || cur2 !== null) {
-    let val1 = cur1 !== null ? cur1.val : 0;
-    let val2 = cur2 !== null ? cur2.val : 0;
+  while (cur1 || cur2) {
+    let val1 = cur1 ? cur1.val : 0;
+    let val2 = cur2 ? cur2.val : 0;
     let sum = val1 + val2 + carry;
 
     let newNode = new ListNode(sum % 10);

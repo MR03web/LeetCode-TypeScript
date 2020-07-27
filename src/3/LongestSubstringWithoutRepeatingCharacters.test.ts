@@ -3,6 +3,10 @@
  * @Remark
  */
 
+import lengthOfLongestSubstring from "./LongestSubstringWithoutRepeatingCharacters";
+
 test("LongestSubstringWithoutRepeatingCharacters", () => {
-  //
+  expect(lengthOfLongestSubstring("abcabcbb")).toBe(3);
 });
+
+// console.log(item, hash[item], index, " | ", start, len, maxLen);
